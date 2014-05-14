@@ -1,0 +1,6 @@
+<h1>Users</h1>
+
+<% @users.each do |u| %>
+  <p><%= "#{u.first_name} #{u.last_name}" %></p>
+  <p style="font-size: 11px; line-height: 2px;"><%= u.email %></p>
+<% end %>
